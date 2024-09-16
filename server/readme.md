@@ -2,21 +2,21 @@
 
 This project aims to create a backend system for managing faculty members using Node.js and Express.js framework. Additionally, it will include integration with MongoDB database for data storage. The project will have three main functionalities:
 
-1. **Routes Setup:**
+1. **Routes Setup:**✅
 
    - Using the Express.js package, create three routes:
      - GET `/member`: Retrieve all faculty members.
      - POST `/member`: Add a new faculty member.
      - DELETE `/member/:id`: Delete a faculty member by ID.
 
-2. **Controllers Creation:**
+2. **Controllers Creation:**✅
 
    - Create a controller for each route to handle the corresponding functionality.
      - `getAllFacultyMembers`: Retrieve all faculty members.
      - `addFacultyMember`: Add a new faculty member.
      - `deleteFacultyMember`: Delete a faculty member by ID.
 
-3. **Schema Definition:**
+3. **Schema Definition:**✅
 
    - Define a schema for faculty members in MongoDB, including the following fields:
      - **String** `name`: Name of the faculty member.

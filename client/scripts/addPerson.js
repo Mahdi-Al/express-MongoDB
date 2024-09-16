@@ -12,6 +12,7 @@ form.addEventListener("submit", async (e) => {
     type: e.target.type.value,
     qualification: e.target.qualification.value,
   };
+  console.log(formData);
   const { res, error } = await createUser(formData);
   if (res) {
     alert("user created successfully!");
