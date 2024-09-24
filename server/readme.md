@@ -26,7 +26,7 @@ This project aims to create a backend system for managing faculty members using 
      - **String** `type`: Type of employment (e.g., Full Time, Part Time).
      - **String** `qualification`: Qualification of the faculty member (e.g., Ph.D, Master's).
 
-4. **Database Connection:**
+4. **Database Connection:**✅
    - Connect to MongoDB database to store and retrieve faculty member data.
 
 Once the backend of the project is set up, the frontend team will integrate the following APIs into the website:
@@ -41,14 +41,14 @@ After completing the backend setup, integrate the developed APIs into the websit
 
 ---
 
-### **Optional Task**
+### **Optional Task**✅
 
 create a route to update a single data for faculty member
 
-1. **Routes Setup:**
+1. **Routes Setup:**✅
 
    - PATCH `/member/:id`: update a faculty member data by ID.
 
-2. **Controllers Creation:**
+2. **Controllers Creation:**✅
 
    - `updateFacultyMember`: update a faculty member by ID.

@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
-
-router.get("/");
-router.post("/");
-router.patch("/:id");
-router.delete("/:id");
+const memberController = require("../controllers/member.controller");
+router.get("/", memberController.getAllFacultyMembers);
+router.post("/", memberController.addFacultyMember);
+router.patch("/:id", memberController.updateFacultyMember);
+router.delete("/:id", memberController.deleteFacultyMember);
+module.exports = router;
