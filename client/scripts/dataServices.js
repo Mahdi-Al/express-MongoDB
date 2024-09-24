@@ -1,5 +1,4 @@
-import e from "express";
-
+const e = require("express");
 const baseURL = ""; // Write down the base URL of the created API.
 
 const getAllUser = async () => {};
