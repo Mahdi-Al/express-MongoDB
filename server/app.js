@@ -11,8 +11,8 @@ const port = process.env.APP_PORT || 3002;
 app.use(express.json(), express.urlencoded({ extended: true }));
 
 // * define routes
-app.use("/members", router);
-
+// app.use("/members", router);
+app.get("/members", memberController.getAllFacultyMembers);
 async function callAwait() {
   await dbConnection();
 }
